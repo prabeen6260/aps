@@ -1,0 +1,13 @@
+train: /Users/sathya/Documents/speaky/handsspeak.v2i.yolov8/train/images
+val: /Users/sathya/Documents/speaky/handsspeak.v2i.yolov8/valid/images
+test: /Users/sathya/Documents/speaky/handsspeak.v2i.yolov8/test/images
+
+nc: 18
+names: ['I', 'apple', 'can', 'get', 'good', 'have', 'help', 'how', 'like', 'love', 'my', 'no', 'sorry', 'thank-you', 'want', 'yes', 'you', 'your']
+
+roboflow:
+  workspace: asl-y3xkg
+  project: handsspeak
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/asl-y3xkg/handsspeak/dataset/2
